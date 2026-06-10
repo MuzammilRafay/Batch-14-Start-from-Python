@@ -33,22 +33,47 @@ types = ["AC", "Sleeper"]
 for name, t in zip(names, types):
     print(name, t)
 
+#output
+# Ali Ac
+# Ahmed Sleeper
+
 
 
 
 #  Control Flow (break, continue, else)
+
 # break → stop loop
-# for i in range(5):
-#     if i == 3:
-#         break
-#     print(i)
+for i in range(5):
+    if i == 3:
+        break
+    print(i) 
+    #output 
+    # 1 
+    # 2 
+    
+
+
 #  continue → skip iteration
-# for i in range(5):
-#     if i == 2:
-#         continue
-#     print(i)
+
+for i in range(5):
+    if i == 2:
+        continue
+    print(i)
+
+#output
+# 1
+# 3
+# 4
+# 5
+
 #  else → runs if loop NOT broken
-# for i in range(3):
-#     print(i)
-# else:
-#     print("Loop finished")
+for i in range(3):
+    print(i)
+else:
+    print("Loop finished")
+
+
+
+
+
+

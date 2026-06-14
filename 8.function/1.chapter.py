@@ -72,12 +72,12 @@ def idle_chaiwala():
 
 print(idle_chaiwala()) #None
 
-#One Value
+#Assign One Value
 make_chai_var = make_chai() #output "Here is your masala chai"
 
 print(f"{make_chai_var}")
 
-#Multiple
+#Assign Multiple Values form function
 
 def chai_report():
     return 100,20,10
@@ -156,7 +156,7 @@ square(5) #output 25
 lambda chai: chai != 'kadak'
 
 
-#*args (in js you can say rest parameter)
+# *args (in js you can say rest parameter)
 # *args collects multiple positional arguments into a tuple.
 
 
@@ -206,7 +206,7 @@ student_info(name="Ali", age=20, city="Karachi")
 
 
 
-#Document String
+#Document String / Multiline comments
 #dunderdoc = __ (double underscore)
 # __doc__
 
@@ -393,3 +393,19 @@ with open("test.txt", "w") as file:
 
 
 
+
+
+
+# Function vs Method
+
+#Function
+def greet():
+    print("Hello")
+
+greet()
+# vs
+#Methods
+# method belongs to an object or class
+name = "muzammil"
+
+print(name.upper())

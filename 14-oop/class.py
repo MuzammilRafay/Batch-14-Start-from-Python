@@ -60,6 +60,7 @@ class FeeAccount:
 
 
 account = FeeAccount(5000)
+# account._balance
 print(account.pay(2000))
 print("Balance:", account.get_balance())
 

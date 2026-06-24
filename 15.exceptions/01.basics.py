@@ -4,7 +4,7 @@
 
 #KeyError
 # car_prices = {"BMW": 100000, "Audi": 120000}
-# print(car_prices["Toyota"]) #KeyErrorx
+# print(car_prices["Toyota"]) #KeyError
 
 #ZeroDivisionError
 # print(10 / 0)

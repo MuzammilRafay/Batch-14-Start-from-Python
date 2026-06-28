@@ -17,10 +17,10 @@ Example:
 
 # Threading
 
-- One process
-- Multiple threads
-- Shared memory
+- One Cpu Core -> in this cpu core we have multiple threads
+- Cpu core can excecute thread at a time
 - Fast context switching
+- Shared memory
 - Affected by GIL
 - Good for I/O tasks
 
@@ -43,6 +43,7 @@ Solutions:
 
 # Multiprocessing
 
+- Process = Single Core -> single core k andar multiple threads hote hein
 - Multiple processes
 - Multiple CPU cores
 - Separate memory

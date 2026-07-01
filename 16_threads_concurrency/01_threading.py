@@ -29,4 +29,4 @@ brew_thread.join()
 
 
 
-print(f"All orders taken & ordeer brewed")
+print(f"All orders taken & order brewed")

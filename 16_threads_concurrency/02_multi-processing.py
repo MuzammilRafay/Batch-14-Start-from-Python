@@ -6,6 +6,7 @@ def brew_chai(name):
     time.sleep(3)
     print(f"End of {name} chai brewing")
 
+
 if __name__ == "__main__":
     chai_makers = [
             Process(target=brew_chai, args=(f"Chai Maker #{i+1}", ))
